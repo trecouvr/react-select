@@ -615,6 +615,7 @@ const Select = React.createClass({
 		if (this.props.multi) {
 			this.setState({
 				inputValue: '',
+				isOpen: false,
 				focusedIndex: null
 			}, () => {
 				this.addValue(value);
